@@ -1,4 +1,4 @@
-const Methods = require("./main");
+const Methods = require("../main");
 
 // Group testing
 describe("Check Names", () => {
@@ -32,7 +32,7 @@ describe("Numbers testing", () => {
         const value = Methods.sum(11, 3);
         expect(value).toBeLessThan(15);
         expect(value).toBeGreaterThan(5);
-        expect(value).toBe(16);
+        expect(value).toBe(14);
     });
 
     test("Float testing", () => {
